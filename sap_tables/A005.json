@@ -1,0 +1,169 @@
+{
+  "number": "6",
+  "name": "A005",
+  "description": "Customer/Material",
+  "category": "POOL",
+  "delivery_class": "A",
+  "fields": [
+    {
+      "field": "MANDT",
+      "key": "X",
+      "data_element": {
+        "name": "MANDT",
+        "url": "https://www.sapdatasheet.org/abap/dtel/mandt.html"
+      },
+      "domain": {
+        "name": "MANDT",
+        "url": "https://www.sapdatasheet.org/abap/doma/mandt.html"
+      },
+      "data_type": "CLNT",
+      "length": "3",
+      "decimals": "0",
+      "short_description": "Client"
+    },
+    {
+      "field": "KAPPL",
+      "key": "X",
+      "data_element": {
+        "name": "KAPPL",
+        "url": "https://www.sapdatasheet.org/abap/dtel/kappl.html"
+      },
+      "domain": {
+        "name": "KAPPL",
+        "url": "https://www.sapdatasheet.org/abap/doma/kappl.html"
+      },
+      "data_type": "CHAR",
+      "length": "2",
+      "decimals": "0",
+      "short_description": "Application"
+    },
+    {
+      "field": "KSCHL",
+      "key": "X",
+      "data_element": {
+        "name": "KSCHA",
+        "url": "https://www.sapdatasheet.org/abap/dtel/kscha.html"
+      },
+      "domain": {
+        "name": "KSCHL",
+        "url": "https://www.sapdatasheet.org/abap/doma/kschl.html"
+      },
+      "data_type": "CHAR",
+      "length": "4",
+      "decimals": "0",
+      "short_description": "Condition Type"
+    },
+    {
+      "field": "VKORG",
+      "key": "X",
+      "data_element": {
+        "name": "VKORG",
+        "url": "https://www.sapdatasheet.org/abap/dtel/vkorg.html"
+      },
+      "domain": {
+        "name": "VKORG",
+        "url": "https://www.sapdatasheet.org/abap/doma/vkorg.html"
+      },
+      "data_type": "CHAR",
+      "length": "4",
+      "decimals": "0",
+      "short_description": "Sales Organization"
+    },
+    {
+      "field": "VTWEG",
+      "key": "X",
+      "data_element": {
+        "name": "VTWEG",
+        "url": "https://www.sapdatasheet.org/abap/dtel/vtweg.html"
+      },
+      "domain": {
+        "name": "VTWEG",
+        "url": "https://www.sapdatasheet.org/abap/doma/vtweg.html"
+      },
+      "data_type": "CHAR",
+      "length": "2",
+      "decimals": "0",
+      "short_description": "Distribution Channel"
+    },
+    {
+      "field": "KUNNR",
+      "key": "X",
+      "data_element": {
+        "name": "KUNNR_V",
+        "url": "https://www.sapdatasheet.org/abap/dtel/kunnr_v.html"
+      },
+      "domain": {
+        "name": "KUNNR",
+        "url": "https://www.sapdatasheet.org/abap/doma/kunnr.html"
+      },
+      "data_type": "CHAR",
+      "length": "10",
+      "decimals": "0",
+      "short_description": "Customer number"
+    },
+    {
+      "field": "MATNR",
+      "key": "X",
+      "data_element": {
+        "name": "MATNR",
+        "url": "https://www.sapdatasheet.org/abap/dtel/matnr.html"
+      },
+      "domain": {
+        "name": "MATNR",
+        "url": "https://www.sapdatasheet.org/abap/doma/matnr.html"
+      },
+      "data_type": "CHAR",
+      "length": "18",
+      "decimals": "0",
+      "short_description": "Material Number"
+    },
+    {
+      "field": "DATBI",
+      "key": "X",
+      "data_element": {
+        "name": "KODATBI",
+        "url": "https://www.sapdatasheet.org/abap/dtel/kodatbi.html"
+      },
+      "domain": {
+        "name": "DATUM",
+        "url": "https://www.sapdatasheet.org/abap/doma/datum.html"
+      },
+      "data_type": "DATS",
+      "length": "8",
+      "decimals": "0",
+      "short_description": "Validity end date of the condition record"
+    },
+    {
+      "field": "DATAB",
+      "key": "",
+      "data_element": {
+        "name": "KODATAB",
+        "url": "https://www.sapdatasheet.org/abap/dtel/kodatab.html"
+      },
+      "domain": {
+        "name": "DATUM",
+        "url": "https://www.sapdatasheet.org/abap/doma/datum.html"
+      },
+      "data_type": "DATS",
+      "length": "8",
+      "decimals": "0",
+      "short_description": "Validity start date of the condition record"
+    },
+    {
+      "field": "KNUMH",
+      "key": "",
+      "data_element": {
+        "name": "KNUMH",
+        "url": "https://www.sapdatasheet.org/abap/dtel/knumh.html"
+      },
+      "domain": {
+        "name": "KNUMB",
+        "url": "https://www.sapdatasheet.org/abap/doma/knumb.html"
+      },
+      "data_type": "CHAR",
+      "length": "10",
+      "decimals": "0",
+      "short_description": "Condition record number"
+    }
+  ]
+}

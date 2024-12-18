@@ -1,0 +1,105 @@
+{
+  "number": "4",
+  "name": "A003",
+  "description": "Tax Classification",
+  "category": "TRANSP",
+  "delivery_class": "A",
+  "fields": [
+    {
+      "field": "MANDT",
+      "key": "X",
+      "data_element": {
+        "name": "MANDT",
+        "url": "https://www.sapdatasheet.org/abap/dtel/mandt.html"
+      },
+      "domain": {
+        "name": "MANDT",
+        "url": "https://www.sapdatasheet.org/abap/doma/mandt.html"
+      },
+      "data_type": "CLNT",
+      "length": "3",
+      "decimals": "0",
+      "short_description": "Client"
+    },
+    {
+      "field": "KAPPL",
+      "key": "X",
+      "data_element": {
+        "name": "KAPPL",
+        "url": "https://www.sapdatasheet.org/abap/dtel/kappl.html"
+      },
+      "domain": {
+        "name": "KAPPL",
+        "url": "https://www.sapdatasheet.org/abap/doma/kappl.html"
+      },
+      "data_type": "CHAR",
+      "length": "2",
+      "decimals": "0",
+      "short_description": "Application"
+    },
+    {
+      "field": "KSCHL",
+      "key": "X",
+      "data_element": {
+        "name": "KSCHA",
+        "url": "https://www.sapdatasheet.org/abap/dtel/kscha.html"
+      },
+      "domain": {
+        "name": "KSCHL",
+        "url": "https://www.sapdatasheet.org/abap/doma/kschl.html"
+      },
+      "data_type": "CHAR",
+      "length": "4",
+      "decimals": "0",
+      "short_description": "Condition Type"
+    },
+    {
+      "field": "ALAND",
+      "key": "X",
+      "data_element": {
+        "name": "ALAND",
+        "url": "https://www.sapdatasheet.org/abap/dtel/aland.html"
+      },
+      "domain": {
+        "name": "LAND1",
+        "url": "https://www.sapdatasheet.org/abap/doma/land1.html"
+      },
+      "data_type": "CHAR",
+      "length": "3",
+      "decimals": "0",
+      "short_description": "Departure country (country from which the goods are sent)"
+    },
+    {
+      "field": "MWSKZ",
+      "key": "X",
+      "data_element": {
+        "name": "MWSKZ",
+        "url": "https://www.sapdatasheet.org/abap/dtel/mwskz.html"
+      },
+      "domain": {
+        "name": "MWSKZ",
+        "url": "https://www.sapdatasheet.org/abap/doma/mwskz.html"
+      },
+      "data_type": "CHAR",
+      "length": "2",
+      "decimals": "0",
+      "short_description": "Tax on sales/purchases code"
+    },
+    {
+      "field": "KNUMH",
+      "key": "",
+      "data_element": {
+        "name": "KNUMH",
+        "url": "https://www.sapdatasheet.org/abap/dtel/knumh.html"
+      },
+      "domain": {
+        "name": "KNUMB",
+        "url": "https://www.sapdatasheet.org/abap/doma/knumb.html"
+      },
+      "data_type": "CHAR",
+      "length": "10",
+      "decimals": "0",
+      "short_description": "Condition record number"
+    }
+  ]
+}

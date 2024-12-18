@@ -1,0 +1,137 @@
+{
+  "number": "9",
+  "name": "A008",
+  "description": "Plant/Additional selling plant",
+  "category": "TRANSP",
+  "delivery_class": "A",
+  "fields": [
+    {
+      "field": "MANDT",
+      "key": "X",
+      "data_element": {
+        "name": "MANDT",
+        "url": "https://www.sapdatasheet.org/abap/dtel/mandt.html"
+      },
+      "domain": {
+        "name": "MANDT",
+        "url": "https://www.sapdatasheet.org/abap/doma/mandt.html"
+      },
+      "data_type": "CLNT",
+      "length": "3",
+      "decimals": "0",
+      "short_description": "Client"
+    },
+    {
+      "field": "KAPPL",
+      "key": "X",
+      "data_element": {
+        "name": "KAPPL",
+        "url": "https://www.sapdatasheet.org/abap/dtel/kappl.html"
+      },
+      "domain": {
+        "name": "KAPPL",
+        "url": "https://www.sapdatasheet.org/abap/doma/kappl.html"
+      },
+      "data_type": "CHAR",
+      "length": "2",
+      "decimals": "0",
+      "short_description": "Application"
+    },
+    {
+      "field": "KSCHL",
+      "key": "X",
+      "data_element": {
+        "name": "KSCHA",
+        "url": "https://www.sapdatasheet.org/abap/dtel/kscha.html"
+      },
+      "domain": {
+        "name": "KSCHL",
+        "url": "https://www.sapdatasheet.org/abap/doma/kschl.html"
+      },
+      "data_type": "CHAR",
+      "length": "4",
+      "decimals": "0",
+      "short_description": "Condition Type"
+    },
+    {
+      "field": "WERKS",
+      "key": "X",
+      "data_element": {
+        "name": "WERKS_D",
+        "url": "https://www.sapdatasheet.org/abap/dtel/werks_d.html"
+      },
+      "domain": {
+        "name": "WERKS",
+        "url": "https://www.sapdatasheet.org/abap/doma/werks.html"
+      },
+      "data_type": "CHAR",
+      "length": "4",
+      "decimals": "0",
+      "short_description": "Plant"
+    },
+    {
+      "field": "WERKV",
+      "key": "X",
+      "data_element": {
+        "name": "WERKV",
+        "url": "https://www.sapdatasheet.org/abap/dtel/werkv.html"
+      },
+      "domain": {
+        "name": "WERKS",
+        "url": "https://www.sapdatasheet.org/abap/doma/werks.html"
+      },
+      "data_type": "CHAR",
+      "length": "4",
+      "decimals": "0",
+      "short_description": "Resale plant"
+    },
+    {
+      "field": "DATBI",
+      "key": "X",
+      "data_element": {
+        "name": "KODATBI",
+        "url": "https://www.sapdatasheet.org/abap/dtel/kodatbi.html"
+      },
+      "domain": {
+        "name": "DATUM",
+        "url": "https://www.sapdatasheet.org/abap/doma/datum.html"
+      },
+      "data_type": "DATS",
+      "length": "8",
+      "decimals": "0",
+      "short_description": "Validity end date of the condition record"
+    },
+    {
+      "field": "DATAB",
+      "key": "",
+      "data_element": {
+        "name": "KODATAB",
+        "url": "https://www.sapdatasheet.org/abap/dtel/kodatab.html"
+      },
+      "domain": {
+        "name": "DATUM",
+        "url": "https://www.sapdatasheet.org/abap/doma/datum.html"
+      },
+      "data_type": "DATS",
+      "length": "8",
+      "decimals": "0",
+      "short_description": "Validity start date of the condition record"
+    },
+    {
+      "field": "KNUMH",
+      "key": "",
+      "data_element": {
+        "name": "KNUMH",
+        "url": "https://www.sapdatasheet.org/abap/dtel/knumh.html"
+      },
+      "domain": {
+        "name": "KNUMB",
+        "url": "https://www.sapdatasheet.org/abap/doma/knumb.html"
+      },
+      "data_type": "CHAR",
+      "length": "10",
+      "decimals": "0",
+      "short_description": "Condition record number"
+    }
+  ]
+}

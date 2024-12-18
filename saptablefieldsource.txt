@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<!-- DDIC Table -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <title>SAP ABAP Table A001 (Not Used in Standard) - SAP Datasheet - The Best Online SAP Object Repository </title>
+        <meta name="author" content="SAP Datasheet" />
+        <meta name="description" content="SAP ABAP Table A001 (Not Used in Standard) - SAP Datasheet - The Best Online SAP Object Repository" />
+        <meta name="keywords" content="SAP,Table,A001,Not Used in Standard" />
+
+        <link rel="stylesheet" type="text/css"  href="/3rdparty/bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="/sapdatasheet.css"/>
+
+        <script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"Thing","name":"A001","alternateName":"Not Used in Standard","description":"SAP ABAP Table A001 (Not Used in Standard)","url":"https:\/\/www.sapdatasheet.org\/abap\/tabl\/a001.html","image":"https:\/\/www.sapdatasheet.org\/abap\/icon\/s_b_tvar.gif"}</script>
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="container-fluid sticky-top bg-light">
+    <div class="row">
+        <div class="col-md-auto pt-2">
+            <a href="/"><img class="" src="/sapdatasheet-big.png" width="200" height="21" class="d-inline-block align-top" alt=""></a>
+            <br><span class="text-nowrap text-muted text-monospace font-weight-bold sapds-slogan">The Best Online SAP Object Repository</span>
+        </div>
+        <div class="col">
+
+            <nav class="navbar navbar-expand-md navbar-dark sapds-menu"> 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="/abap/" title="ABAP Object Types">ABAP</a></li>
+
+                        <li class="nav-item active dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Hierarchy</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="/abap/cvers/"><img src='/abap/icon/s_instal.gif'> &nbsp; Software Component</a>
+                                <a class="dropdown-item" href="/abap/bmfr/"><img src='/abap/icon/s_b_tree.gif'> &nbsp; Application Component</a>
+                                <a class="dropdown-item" href="/abap/devc/"><img src='/abap/icon/s_pckstd.gif'> &nbsp; Package</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item active dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">DDIC</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="/abap/doma/"><img src='/abap/icon/s_elemen.gif'> &nbsp; Domain</a>
+                                <a class="dropdown-item" href="/abap/dtel/"><img src='/abap/icon/s_struct.gif'> &nbsp; Data Element</a>
+                                <a class="dropdown-item" href="/abap/tabl/"><img src='/abap/icon/s_b_tvar.gif'> &nbsp; Table</a>
+                                <a class="dropdown-item" href="/abap/sqlt/"><img src='/abap/icon/s_bwdata.gif'> &nbsp; Table Cluster/Pool</a>
+                                <a class="dropdown-item" href="/abap/view/"><img src='/abap/icon/s_b_bwrv.gif'> &nbsp; View</a>
+                                <a class="dropdown-item" href="/abap/shlp/"><img src='/abap/icon/s_f4help.gif'> &nbsp; Search Help</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item active dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Code</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="/abap/intf/"><img src='/abap/icon/s_b_intf.gif'> &nbsp; ABAP Interface</a>
+                                <a class="dropdown-item" href="/abap/clas/"><img src='/abap/icon/s_b_clas.gif'> &nbsp; ABAP Class</a>
+                                <a class="dropdown-item" href="/abap/fugr/"><img src='/abap/icon/s_b_objc.gif'> &nbsp; Function Group</a>
+                                <a class="dropdown-item" href="/abap/func/"><img src='/abap/icon/s_b_meth.gif'> &nbsp; Function Module</a>
+                                <a class="dropdown-item" href="/abap/prog/"><img src='/abap/icon/s_b_sumi.gif'> &nbsp; Program</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item active dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Entrance</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="/abap/tran/"><img src='/abap/icon/s_b_exec.gif'> &nbsp; Transaction Code</a>
+                                <a class="dropdown-item" href="/abap/cus0/"><img src='/abap/icon/s_b_tsak.gif'> &nbsp; IMG Activity</a>
+                                <a class="dropdown-item" href="/abap/msag/"><img src='/abap/icon/s_messag.gif'> &nbsp; Message Class</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item active dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">XRef</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="/wul/abap/"><img src='/abap/icon/s_b_book.gif'> &nbsp; Where Used List</a>
+                                <a class="dropdown-item" href="/wil/abap/"><img src='/abap/icon/s_assign.gif'> &nbsp; Where Using List</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <form class="form-inline mt-2 mt-md-0" method="get" action="https://www.google.com/search" target="_blank">
+                        <input class="form-control mr-sm-2" type="text" name="q" placeholder="Search" aria-label="Search"
+                               value="SAP ABAP Table A001 (Not Used in Standard)">
+                        <input type="hidden" name="sitesearch" value="sapdatasheet.org" />
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg></button>
+                    </form>
+                </div>
+            </nav>
+
+        </div><!-- End col -->
+    </div><!-- End row -->
+</div>
+
+
+
+<!-- End of Menu -->
+        <div class="container-fluid">
+            <div class="row">
+                <div  class="col-xl-2 col-lg-2 col-md-3 col-sm-3 bd-sidebar bg-light">
+                    <!-- Left Side bar -->
+                    <h6 class="pt-4">Object Hierarchy</h6>
+                    <table>
+                        <tbody>
+                            <tr><td><small><strong>Software Component</strong></small></td></tr>
+                            <tr><td><img src='/abap/icon/s_instal.gif'>                                     <a href="/abap/cvers/bbpcrm.html" title="BBPCRM" target="_blank">BBPCRM</a>&nbsp;</td></tr>
+                            <tr><td><small><strong> Application Component ID</strong></small></td></tr>
+                            <tr><td><img src='/abap/icon/s_b_tree.gif'>                                     <a href="/abap/bmfr/pfc0000020.html" title="Pricing" target="_blank">AP-PRC-PR</a>&nbsp;</td></tr>
+                            <tr><td><small><strong> Package </strong></small></td></tr>
+                            <tr><td><img src='/abap/icon/s_pckstd.gif'>                                     <a href="/abap/devc/vkon.html" title="Application development R/3 conditions" target="_blank">VKON</a></td></tr>
+                            <tr><td><small><strong> Object type </strong></small></td></tr>
+                            <tr><td><img src='/abap/icon/s_b_tvar.gif'>                                     <a href="/abap/tabl/">Pooled table</a></td></tr>
+                            <tr><td><small><strong>Object name </strong></small></td></tr>
+                            <tr><td><img src='/abap/icon/s_b_tvar.gif'>                                     <a href="#" title="A001">A001</a> </td></tr>
+                        </tbody>
+                    </table>
+
+                    <h6 class="pt-4">Using</h6>
+    <table>
+        <tbody>
+                                                <tr><td><img src='/abap/icon/s_struct.gif'>  <a href="/wil/abap/tabl/a001/dtel.html" title="Data Element (8)" target="_blank" >Data Element (8)</a>&nbsp;</td></tr>
+                                    <tr><td><img src='/abap/icon/s_bwdata.gif'>  <a href="/wil/abap/tabl/a001/sqlt.html" title="Table Cluster/Pool (1)" target="_blank" >Table Cluster/Pool (1)</a>&nbsp;</td></tr>
+                                    <tr><td><img src='/abap/icon/s_b_tvar.gif'>  <a href="/wil/abap/tabl/a001/tabl.html" title="Table (5)" target="_blank" >Table (5)</a>&nbsp;</td></tr>
+                                    </tbody>
+    </table>
+
+<h6 class="pt-4">Used by</h6>
+<table>
+    <tbody>
+                                    <tr><td><img src='/abap/icon/s_b_sumi.gif'>  <a href="/wul/abap/tabl/a001/prog.html" title="Program (2)" target="_blank" >Program (2)</a>&nbsp;</td></tr>
+                            <tr><td><img src='/abap/icon/s_b_abap.gif'>  <a href="/wul/abap/tabl/a001/ueno.html" title="UENO (1)" target="_blank" >UENO (1)</a>&nbsp;</td></tr>
+                        </tbody>
+</table>
+                    <!--Advertise Links at the page left -->
+<h6 class="pt-4">Advertise Links</h6>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-links -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5247336708436590"
+     data-ad-slot="2291236063"
+     data-ad-format="link"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                </div>
+
+                <main class="col-xl-8 col-lg-8 col-md-6  col-sm-9    col-12 bd-content" role="main">
+                    <nav class="pt-3" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/"><img src='/abap/icon/s_b_life.gif'>  Home</a></li>
+                            <li class="breadcrumb-item"><a href="/abap/">ABAP Object Types</a></li>
+                            <li class="breadcrumb-item"><a href="/abap/tabl/">Pooled table</a></li>
+                            <li class="breadcrumb-item active"><a href="#">A001</a></li>
+                        </ol>
+                    </nav>
+
+                    <div class="card shadow">
+                        <div class="card-header sapds-card-header">SAP ABAP Table A001 (Not Used in Standard)</div>
+                        <div class="card-body table-responsive sapds-card-body">
+                            <div class="align-content-start"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- content-top-responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5247336708436590"
+     data-ad-slot="5752733265"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+                            <script src="/include/abap_desc_language.js"></script>
+<div class="clearfix pt-1">
+    <span class="float-right">
+        <select class="form-control" title="Description Language" name="sap-desc-language" 
+                onfocus="langOnFocus(this);"
+                onchange="langOnChnage(this);">
+            <option value="N"  >Nederlands (Dutch)</option>
+            <option value="E" selected="selected" >English</option>
+            <option value="F"  >Français (French)</option>
+            <option value="D"  >Deutsch (German)</option>
+            <option value="I"  >Italiano (Italian)</option>
+            <option value="J"  >日本語 (Japanese)</option>
+            <option value="3"  >한국의 (Korean)</option>
+            <option value="L"  >Polski (Polish)</option>
+            <option value="P"  >Português (Portuguese)</option>
+            <option value="R"  >русский (Russian)</option>
+            <option value="1"  >简体中文 (Simplified Chinese)</option>
+            <option value="S"  >español (Spanish)</option>
+            <option value="M"  >正體中文 (Traditional Chinese)</option>
+            <option value="T"  >Türk (Turkish)</option>
+        </select>
+    </span>
+</div>
+
+                                <h5> <img src='/abap/icon/s_distre.gif'>  Hierarchy </h5>
+    <div class="sapds-hier">
+                <!-- Software Component -->
+                <span>&#9755;</span>
+            <img src='/abap/icon/s_instal.gif'>             <a href="/abap/cvers/bbpcrm.html" title="BBPCRM" target="_blank">BBPCRM</a>            (Software Component) BBPCRM<br />
+                            <!-- Application Component -->
+                    &nbsp;&nbsp;            <span>&#10551;</span> 
+            <img src='/abap/icon/s_b_tree.gif'>             <a href="/abap/bmfr/pfc0000020.html" title="Pricing" target="_blank">AP-PRC-PR</a>            (Application Component) Pricing<br />
+                            <!-- Super Super Package -->
+                <!-- Super Package -->
+                <!-- Package -->
+                    &nbsp;&nbsp;&nbsp;&nbsp;            <span>&#10551;</span>
+            <img src='/abap/icon/s_pckstd.gif'>             <a href="/abap/devc/vkon.html" title="Application development R/3 conditions" target="_blank">VKON</a>            (Package) Application development R/3 conditions<br />
+                    
+    </div>
+
+                            <h5 class="pt-4"><img src='/abap/icon/s_b_head.gif'>  Basic Data </h5>
+                            <table>
+                                <tbody>
+                                    <tr><td class="sapds-gui-label"> Table Category        </td>
+                                        <td class="sapds-gui-field"> <a href="/abap/doma/tabclass.html#values" title="Pooled table" target="_blank">POOL</a> &nbsp;</td>
+                                        <td>&nbsp;Pooled table&nbsp;</td></tr>
+                                    <tr><td class="sapds-gui-label"> Pooled table </td>
+                                        <td class="sapds-gui-field"><a href="#">A001</a></td>
+                                        <td>&nbsp;
+                                            <img src='/abap/icon/s_psrela.gif'>                                             <a target="_blank" href="https://www.sap-tables.org/table/a001.html"
+                                               title="Dispaly SAP Table Relationship Diagram" >
+                                                Table Relationship Diagram <sup><img src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22%3E %3Cpath fill=%22%23fff%22 stroke=%22%2336c%22 d=%22M1.5 4.518h5.982V10.5H1.5z%22/%3E %3Cpath fill=%22%2336c%22 d=%22M5.765 1H11v5.39L9.427 7.937l-1.31-1.31L5.393 9.35l-2.69-2.688 2.81-2.808L4.2 2.544z%22/%3E %3Cpath fill=%22%23fff%22 d=%22M9.995 2.004l.022 4.885L8.2 5.07 5.32 7.95 4.09 6.723l2.882-2.88-1.85-1.852z%22/%3E %3C/svg%3E"></sup>
+                                            </a>
+                                        </td></tr>
+                                    <tr><td class="sapds-gui-label"> Short Description     </td>
+                                        <td class="sapds-gui-field"> Not Used in Standard &nbsp;</td>
+                                        <td>&nbsp;</td></tr>
+                                </tbody>
+                            </table>
+
+                            <!-- Delivery and Maintenance -->
+                            <h5 class="pt-4"><img src='/abap/icon/s_transl.gif'>  Delivery and Maintenance </h5>
+                            <table>
+                                <tbody>
+                                    <tr><td class="sapds-gui-label"> Pool/cluster </td>
+                                        <td class="sapds-gui-field"> <a href="/abap/sqlt/kapol.html" title="Condition pool : Prices and surcharges and discounts" target="_blank">KAPOL</a> &nbsp;</td>
+                                        <td>&nbsp;</td></tr>
+                                    <tr><td class="sapds-gui-label"> Delivery Class </td>
+                                        <td class="sapds-gui-field"> <a href="/abap/doma/contflag.html#values" title="Application Table (Master- and Transaction Data)" target="_blank">A</a> &nbsp;</td>
+                                        <td>Application Table (Master- and Transaction Data)&nbsp;</td></tr>
+                                    <tr><td class="sapds-gui-label"> Data Browser/Table View Maintenance </td>
+                                        <td class="sapds-gui-field"> &nbsp; &nbsp;</td>
+                                        <td>Display/Maintenance Allowed with Restrictions&nbsp;</td></tr>
+                                </tbody>
+                            </table>
+
+                            <!-- Components -->
+                            <h5 class="pt-4"><img src='/abap/icon/s_simfld.gif'>  Components </h5>
+                            <table class="table table-sm">
+                                <caption class="text-right sapds-alv">
+                                    <a href="/download/abap-tabl-component.php?format=csv&tabname=A001"
+                                       title="Download components as CSV file.&#10;The downloaded file contains more columns than displayed here."
+                                       target="_blank">
+                                        <img src='/abap/icon/s_wdvtxe.gif'></a> &nbsp;
+                                    <a href="/download/abap-tabl-component.php?format=xls&tabname=A001"
+                                       title="Download components as Excel 97-2003 Worksheet (.xls) file.&#10;The downloaded file contains more columns than displayed here."
+                                       target="_blank">
+                                        <img src='/abap/icon/s_x__xls.gif'></a> &nbsp;
+                                    <a href="/download/abap-tabl-component.php?format=xlsx&tabname=A001"
+                                       title="Download components as Excel Open XML Format Spreadsheet (.xlsx) file.&#10;The downloaded file contains more columns than displayed here."
+                                       target="_blank">
+                                        <img src='/abap/icon/s_lisvie.gif'></a> &nbsp;
+                                </caption>
+                                <thead>
+                                    <tr>
+                                        <th class="sapds-alv"> <img src='/abap/icon/s_b_pvre.gif'> </th>
+                                        <th class="sapds-alv"> Field </th>
+                                        <th class="sapds-alv"> Key </th>
+                                        <th class="sapds-alv"> Data Element</th>
+                                        <th class="sapds-alv"> Domain</th>
+                                        <th class="sapds-alv"> Data<br/>Type</th>
+                                        <th class="sapds-alv"> Length</th>
+                                        <th class="sapds-alv"> Decimal<br/>Places</th>
+                                        <th class="sapds-alv"> Short Description</th>
+                                        <th class="sapds-alv"> Check<br/>table</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                                                            <tr>
+                                            <td class="sapds-alv"> <a id="FIELD_MANDT"></a> 1 </td>
+                                            <td class="sapds-alv"> <img src='/abap/icon/s_struct.gif'>                                                 <a href="/abap/tabl/a001-mandt.html" title="MANDT" target="_blank">MANDT</a> </td>
+                                            <td class="sapds-alv text-center"> <input type="checkbox" name="field_MANDT"  disabled="disabled" checked="checked" /> </td>
+                                            <td class="sapds-alv"> <a href="/abap/dtel/mandt.html" title="Client" target="_blank">MANDT</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/mandt.html" title="Client (key field in client-specific tables)" target="_blank">MANDT</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/datatype.html#values" title="Dictionary Data Type" target="_blank">CLNT</a> </td>
+                                            <td class="sapds-alv text-right"> 3 &nbsp; </td>
+                                            <td class="sapds-alv text-right"> 0 &nbsp; </td>
+                                            <td class="sapds-alv"> Client </td>
+                                            <td class="sapds-alv"> <a href="/abap/tabl/t000.html" title="Clients" target="_blank">T000</a> </td>
+                                        </tr>
+                                                                            <tr>
+                                            <td class="sapds-alv"> <a id="FIELD_KAPPL"></a> 2 </td>
+                                            <td class="sapds-alv"> <img src='/abap/icon/s_struct.gif'>                                                 <a href="/abap/tabl/a001-kappl.html" title="KAPPL" target="_blank">KAPPL</a> </td>
+                                            <td class="sapds-alv text-center"> <input type="checkbox" name="field_KAPPL"  disabled="disabled" checked="checked" /> </td>
+                                            <td class="sapds-alv"> <a href="/abap/dtel/kappl.html" title="Application" target="_blank">KAPPL</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/kappl.html" title="Condition application" target="_blank">KAPPL</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/datatype.html#values" title="Dictionary Data Type" target="_blank">CHAR</a> </td>
+                                            <td class="sapds-alv text-right"> 2 &nbsp; </td>
+                                            <td class="sapds-alv text-right"> 0 &nbsp; </td>
+                                            <td class="sapds-alv"> Application </td>
+                                            <td class="sapds-alv"> <a href="/abap/tabl/t681a.html" title="Conditions: Applications" target="_blank">T681A</a> </td>
+                                        </tr>
+                                                                            <tr>
+                                            <td class="sapds-alv"> <a id="FIELD_KSCHL"></a> 3 </td>
+                                            <td class="sapds-alv"> <img src='/abap/icon/s_struct.gif'>                                                 <a href="/abap/tabl/a001-kschl.html" title="KSCHL" target="_blank">KSCHL</a> </td>
+                                            <td class="sapds-alv text-center"> <input type="checkbox" name="field_KSCHL"  disabled="disabled" checked="checked" /> </td>
+                                            <td class="sapds-alv"> <a href="/abap/dtel/kscha.html" title="Condition Type" target="_blank">KSCHA</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/kschl.html" title="Condition key" target="_blank">KSCHL</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/datatype.html#values" title="Dictionary Data Type" target="_blank">CHAR</a> </td>
+                                            <td class="sapds-alv text-right"> 4 &nbsp; </td>
+                                            <td class="sapds-alv text-right"> 0 &nbsp; </td>
+                                            <td class="sapds-alv"> Condition Type </td>
+                                            <td class="sapds-alv"> <a href="/abap/tabl/t685.html" title="Conditions: Types" target="_blank">T685</a> </td>
+                                        </tr>
+                                                                            <tr>
+                                            <td class="sapds-alv"> <a id="FIELD_LIFNR"></a> 4 </td>
+                                            <td class="sapds-alv"> <img src='/abap/icon/s_struct.gif'>                                                 <a href="/abap/tabl/a001-lifnr.html" title="LIFNR" target="_blank">LIFNR</a> </td>
+                                            <td class="sapds-alv text-center"> <input type="checkbox" name="field_LIFNR"  disabled="disabled" checked="checked" /> </td>
+                                            <td class="sapds-alv"> <a href="/abap/dtel/elifn.html" title="Vendor's account number" target="_blank">ELIFN</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/lifnr.html" title="Vendor's account number" target="_blank">LIFNR</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/datatype.html#values" title="Dictionary Data Type" target="_blank">CHAR</a> </td>
+                                            <td class="sapds-alv text-right"> 10 &nbsp; </td>
+                                            <td class="sapds-alv text-right"> 0 &nbsp; </td>
+                                            <td class="sapds-alv"> Vendor's account number </td>
+                                            <td class="sapds-alv"> <a href="/abap/tabl/lfa1.html" title="Vendor Master (General Section)" target="_blank">LFA1</a> </td>
+                                        </tr>
+                                                                            <tr>
+                                            <td class="sapds-alv"> <a id="FIELD_MATNR"></a> 5 </td>
+                                            <td class="sapds-alv"> <img src='/abap/icon/s_struct.gif'>                                                 <a href="/abap/tabl/a001-matnr.html" title="MATNR" target="_blank">MATNR</a> </td>
+                                            <td class="sapds-alv text-center"> <input type="checkbox" name="field_MATNR"  disabled="disabled" checked="checked" /> </td>
+                                            <td class="sapds-alv"> <a href="/abap/dtel/matnr.html" title="Material Number" target="_blank">MATNR</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/matnr.html" title="Material number (field C18)" target="_blank">MATNR</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/datatype.html#values" title="Dictionary Data Type" target="_blank">CHAR</a> </td>
+                                            <td class="sapds-alv text-right"> 18 &nbsp; </td>
+                                            <td class="sapds-alv text-right"> 0 &nbsp; </td>
+                                            <td class="sapds-alv"> Material Number </td>
+                                            <td class="sapds-alv"> <a href="/abap/tabl/mara.html" title="General Material Data" target="_blank">MARA</a> </td>
+                                        </tr>
+                                                                            <tr>
+                                            <td class="sapds-alv"> <a id="FIELD_DATBI"></a> 6 </td>
+                                            <td class="sapds-alv"> <img src='/abap/icon/s_struct.gif'>                                                 <a href="/abap/tabl/a001-datbi.html" title="DATBI" target="_blank">DATBI</a> </td>
+                                            <td class="sapds-alv text-center"> <input type="checkbox" name="field_DATBI"  disabled="disabled" checked="checked" /> </td>
+                                            <td class="sapds-alv"> <a href="/abap/dtel/kodatbi.html" title="Validity end date of the condition record" target="_blank">KODATBI</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/datum.html" title="Date" target="_blank">DATUM</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/datatype.html#values" title="Dictionary Data Type" target="_blank">DATS</a> </td>
+                                            <td class="sapds-alv text-right"> 8 &nbsp; </td>
+                                            <td class="sapds-alv text-right"> 0 &nbsp; </td>
+                                            <td class="sapds-alv"> Validity end date of the condition record </td>
+                                            <td class="sapds-alv"> &nbsp; </td>
+                                        </tr>
+                                                                            <tr>
+                                            <td class="sapds-alv"> <a id="FIELD_DATAB"></a> 7 </td>
+                                            <td class="sapds-alv"> <img src='/abap/icon/s_struct.gif'>                                                 <a href="/abap/tabl/a001-datab.html" title="DATAB" target="_blank">DATAB</a> </td>
+                                            <td class="sapds-alv text-center"> <input type="checkbox" name="field_DATAB"  disabled="disabled" /> </td>
+                                            <td class="sapds-alv"> <a href="/abap/dtel/kodatab.html" title="Validity start date of the condition record" target="_blank">KODATAB</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/datum.html" title="Date" target="_blank">DATUM</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/datatype.html#values" title="Dictionary Data Type" target="_blank">DATS</a> </td>
+                                            <td class="sapds-alv text-right"> 8 &nbsp; </td>
+                                            <td class="sapds-alv text-right"> 0 &nbsp; </td>
+                                            <td class="sapds-alv"> Validity start date of the condition record </td>
+                                            <td class="sapds-alv"> &nbsp; </td>
+                                        </tr>
+                                                                            <tr>
+                                            <td class="sapds-alv"> <a id="FIELD_KNUMH"></a> 8 </td>
+                                            <td class="sapds-alv"> <img src='/abap/icon/s_struct.gif'>                                                 <a href="/abap/tabl/a001-knumh.html" title="KNUMH" target="_blank">KNUMH</a> </td>
+                                            <td class="sapds-alv text-center"> <input type="checkbox" name="field_KNUMH"  disabled="disabled" /> </td>
+                                            <td class="sapds-alv"> <a href="/abap/dtel/knumh.html" title="Condition record number" target="_blank">KNUMH</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/knumb.html" title="Sequential number" target="_blank">KNUMB</a> </td>
+                                            <td class="sapds-alv"> <a href="/abap/doma/datatype.html#values" title="Dictionary Data Type" target="_blank">CHAR</a> </td>
+                                            <td class="sapds-alv text-right"> 10 &nbsp; </td>
+                                            <td class="sapds-alv text-right"> 0 &nbsp; </td>
+                                            <td class="sapds-alv"> Condition record number </td>
+                                            <td class="sapds-alv"> &nbsp; </td>
+                                        </tr>
+                                                                    </tbody>
+                            </table>
+
+                                                            <!-- Foreign Keys -->
+                                <h5 class="pt-4"><img src='/abap/icon/s_b_fkey.gif'>  Foreign Keys </h5>
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th class="sapds-alv"> <img src='/abap/icon/s_b_pvre.gif'> </th>
+                                            <th class="sapds-alv"> Source Table </th>
+                                            <th class="sapds-alv"> Source Column </th>
+                                            <th class="sapds-alv"> Foreign Table</th>
+                                            <th class="sapds-alv"> Foreign Column</th>
+                                            <th class="sapds-alv"> Dependency Factor</th>
+                                            <th class="sapds-alv"> Cardinality left</th>
+                                            <th class="sapds-alv"> Cardinality right</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="sapds-alv"><a href="/abap/dtel/seqnz.html#document" title="Help Document on this Field" target="_blank"><img src='/abap/icon/s_f_help.gif'></a></th>
+                                            <th class="sapds-alv"><a href="/abap/dtel/tabname.html#document" title="Help Document on this Field" target="_blank"><img src='/abap/icon/s_f_help.gif'></a></th>
+                                            <th class="sapds-alv"><a href="/abap/dtel/fieldname.html#document" title="Help Document on this Field" target="_blank"><img src='/abap/icon/s_f_help.gif'></a></th>
+                                            <th class="sapds-alv"><a href="/abap/dtel/tabname.html#document" title="Help Document on this Field" target="_blank"><img src='/abap/icon/s_f_help.gif'></a></th>
+                                            <th class="sapds-alv"><a href="/abap/dtel/fieldname.html#document" title="Help Document on this Field" target="_blank"><img src='/abap/icon/s_f_help.gif'></a></th>
+                                            <th class="sapds-alv"><a href="/abap/dtel/frkart.html#document" title="Help Document on this Field" target="_blank"><img src='/abap/icon/s_f_help.gif'></a></th>
+                                            <th class="sapds-alv"><a href="/abap/dtel/cardleft.html#document" title="Help Document on this Field" target="_blank"><img src='/abap/icon/s_f_help.gif'></a></th>
+                                            <th class="sapds-alv"><a href="/abap/dtel/card.html#document" title="Help Document on this Field" target="_blank"><img src='/abap/icon/s_f_help.gif'></a></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                                                    <tr>
+                                                <td class="sapds-alv"> 1 </td>
+                                                <td class="sapds-alv"> <a href="#">A001</a> </td>
+                                                <td class="sapds-alv"> <a href="#FIELD_KAPPL">KAPPL</a></td>
+                                                <td class="sapds-alv"> <img src='/abap/icon/s_b_tvar.gif'>                                                     <a href="/abap/tabl/t681a.html" title="Conditions: Applications" target="_blank">T681A</a> </td>
+                                                <td class="sapds-alv"> <img src='/abap/icon/s_struct.gif'>                                                     <a href="/abap/tabl/t681a-kappl.html" title="KAPPL" target="_blank">KAPPL</a> </td>
+                                                <td class="sapds-alv">   </td>
+                                                <td class="sapds-alv">
+                                                    &nbsp;                                                </td>
+                                                <td class="sapds-alv">
+                                                    &nbsp;                                                </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td class="sapds-alv"> 2 </td>
+                                                <td class="sapds-alv"> <a href="#">A001</a> </td>
+                                                <td class="sapds-alv"> <a href="#FIELD_KSCHL">KSCHL</a></td>
+                                                <td class="sapds-alv"> <img src='/abap/icon/s_b_tvar.gif'>                                                     <a href="/abap/tabl/t685.html" title="Conditions: Types" target="_blank">T685</a> </td>
+                                                <td class="sapds-alv"> <img src='/abap/icon/s_struct.gif'>                                                     <a href="/abap/tabl/t685-kschl.html" title="KSCHL" target="_blank">KSCHL</a> </td>
+                                                <td class="sapds-alv">   </td>
+                                                <td class="sapds-alv">
+                                                    &nbsp;                                                </td>
+                                                <td class="sapds-alv">
+                                                    &nbsp;                                                </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td class="sapds-alv"> 3 </td>
+                                                <td class="sapds-alv"> <a href="#">A001</a> </td>
+                                                <td class="sapds-alv"> <a href="#FIELD_LIFNR">LIFNR</a></td>
+                                                <td class="sapds-alv"> <img src='/abap/icon/s_b_tvar.gif'>                                                     <a href="/abap/tabl/lfa1.html" title="Vendor Master (General Section)" target="_blank">LFA1</a> </td>
+                                                <td class="sapds-alv"> <img src='/abap/icon/s_struct.gif'>                                                     <a href="/abap/tabl/lfa1-lifnr.html" title="LIFNR" target="_blank">LIFNR</a> </td>
+                                                <td class="sapds-alv">   </td>
+                                                <td class="sapds-alv">
+                                                    &nbsp;                                                </td>
+                                                <td class="sapds-alv">
+                                                    &nbsp;                                                </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td class="sapds-alv"> 4 </td>
+                                                <td class="sapds-alv"> <a href="#">A001</a> </td>
+                                                <td class="sapds-alv"> <a href="#FIELD_MANDT">MANDT</a></td>
+                                                <td class="sapds-alv"> <img src='/abap/icon/s_b_tvar.gif'>                                                     <a href="/abap/tabl/t000.html" title="Clients" target="_blank">T000</a> </td>
+                                                <td class="sapds-alv"> <img src='/abap/icon/s_struct.gif'>                                                     <a href="/abap/tabl/t000-mandt.html" title="MANDT" target="_blank">MANDT</a> </td>
+                                                <td class="sapds-alv">   </td>
+                                                <td class="sapds-alv">
+                                                    &nbsp;                                                </td>
+                                                <td class="sapds-alv">
+                                                    &nbsp;                                                </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td class="sapds-alv"> 5 </td>
+                                                <td class="sapds-alv"> <a href="#">A001</a> </td>
+                                                <td class="sapds-alv"> <a href="#FIELD_MATNR">MATNR</a></td>
+                                                <td class="sapds-alv"> <img src='/abap/icon/s_b_tvar.gif'>                                                     <a href="/abap/tabl/mara.html" title="General Material Data" target="_blank">MARA</a> </td>
+                                                <td class="sapds-alv"> <img src='/abap/icon/s_struct.gif'>                                                     <a href="/abap/tabl/mara-matnr.html" title="MATNR" target="_blank">MATNR</a> </td>
+                                                <td class="sapds-alv">   </td>
+                                                <td class="sapds-alv">
+                                                    &nbsp;                                                </td>
+                                                <td class="sapds-alv">
+                                                    &nbsp;                                                </td>
+                                            </tr>
+                                                                            </tbody>
+                                </table>
+                            
+                            <!--
+                            <h5 class="pt-4"> Index </h5>
+                            <h5 class="pt-4"> Append Structure </h5>
+                            <h5 class="pt-4"> Technical Settings </h5>
+                            <h5 class="pt-4"> Table Maintenance Generator </h5>
+                            <h5 class="pt-4"> Enhancement category </h5>
+                            -->
+
+                            <h5 class="pt-4"><img src='/abap/icon/s_b_rkhi.gif'>  History </h5>
+                            <table>
+                                <tbody>
+                                    <tr><td class="sapds-gui-label"> Last changed by/on      </td><td class="sapds-gui-field">SAP&nbsp;</td><td> 19971105&nbsp;</td></tr>
+                                    <tr><td class="sapds-gui-label"> SAP Release Created in  </td><td class="sapds-gui-field"> &nbsp;</td><td>&nbsp;</td></tr>
+                                </tbody>
+                            </table>
+
+                        </div> 
+                    </div><!-- End Card -->
+                </main>
+
+                <div  class="col-xl-2 col-lg-2 d-md-3    col-sm-none" >
+                    <!-- Right Side bar -->
+                    <h6 class="pt-4">SAP Table Diagram</h6>
+<div>
+        <img src='/abap/icon/s_psrela.gif'>     <a target="_blank" href="https://www.sap-tables.org/table/a001.html"
+       title="Dispaly SAP Table Relationship Diagram" >
+        A001 Diagram <sup><img src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22%3E %3Cpath fill=%22%23fff%22 stroke=%22%2336c%22 d=%22M1.5 4.518h5.982V10.5H1.5z%22/%3E %3Cpath fill=%22%2336c%22 d=%22M5.765 1H11v5.39L9.427 7.937l-1.31-1.31L5.393 9.35l-2.69-2.688 2.81-2.808L4.2 2.544z%22/%3E %3Cpath fill=%22%23fff%22 d=%22M9.995 2.004l.022 4.885L8.2 5.07 5.32 7.95 4.09 6.723l2.882-2.88-1.85-1.852z%22/%3E %3C/svg%3E"></sup>
+    </a>
+    <a href="https://www.sap-tables.org/table/a001.html" target="_blank">
+        <img class="img-fluid img-thumbnail mx-auto d-block"
+             src="https://www.sap-tables.org/table/a001/sap-table-A001-erd.png"
+             alt="E-R Diagram for table A001 (Not Used in Standard)"
+             title="E-R Diagram for table A001 (Not Used in Standard)">
+    </a>
+</div>
+                    <!-- Related Links at the page left -->
+<h6 class="pt-4">Related Links</h6>
+<div>
+    <img src='/abap/icon/s_x__pdf.gif'>     <a href="https://www.sap-tcodes.org/download/book/" target="_blank"
+       title="Download SAP Transaction Code Books in PDF format" >Download TCode Books
+        <sup><img src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22%3E %3Cpath fill=%22%23fff%22 stroke=%22%2336c%22 d=%22M1.5 4.518h5.982V10.5H1.5z%22/%3E %3Cpath fill=%22%2336c%22 d=%22M5.765 1H11v5.39L9.427 7.937l-1.31-1.31L5.393 9.35l-2.69-2.688 2.81-2.808L4.2 2.544z%22/%3E %3Cpath fill=%22%23fff%22 d=%22M9.995 2.004l.022 4.885L8.2 5.07 5.32 7.95 4.09 6.723l2.882-2.88-1.85-1.852z%22/%3E %3C/svg%3E"></sup>
+    </a>
+    <br>
+    <img src='/abap/icon/s_x__xlv.gif'>     <a href="https://www.sap-tcodes.org/download/sheet/" target="_blank"
+       title="Download SAP Transaction Codes in Excel/CSV formats">Download TCode Excels
+        <sup><img src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22%3E %3Cpath fill=%22%23fff%22 stroke=%22%2336c%22 d=%22M1.5 4.518h5.982V10.5H1.5z%22/%3E %3Cpath fill=%22%2336c%22 d=%22M5.765 1H11v5.39L9.427 7.937l-1.31-1.31L5.393 9.35l-2.69-2.688 2.81-2.808L4.2 2.544z%22/%3E %3Cpath fill=%22%23fff%22 d=%22M9.995 2.004l.022 4.885L8.2 5.07 5.32 7.95 4.09 6.723l2.882-2.88-1.85-1.852z%22/%3E %3C/svg%3E"></sup>
+    </a>
+</div>
+
+<h6 class="pt-4">Advertise Links</h6>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- bottom-responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5247336708436590"
+     data-ad-slot="7550537269"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>                </div>
+            </div><!-- End of row -->
+            <hr>
+        </div><!-- End container-fluid, main content -->
+
+        <!-- Footer -->
+        <div class="container-fluid">
+    <!-- Google Adsense: bottom -->
+    <div class="text-center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- bottom-responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5247336708436590"
+     data-ad-slot="7550537269"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+    <footer class="container-fluid pt-4">
+        <p class="text-center">
+            Affinities: <a href="https://www.sap-tables.org" target="_blank" title="The Best Online document for SAP ABAP Tables">www.SAP-Tables.org</a>
+            &middot; <a href="https://www.sap-tcodes.org" target="_blank" title="The Best Online SAP Transaction Code Analytics">www.SAP-TCodes.org</a>
+            | <a target="_blank" href="/site/about.php"><b>About</b></a>
+            &middot; <a target="_blank" href="/site/term.php"><b>Terms</b></a>
+            &middot; <a target="_blank" href="/site/privacy.php"><b>Privacy</b></a>
+            &middot; <a target="_blank" href="https://github.com/sapdatasheet/sapdatasheet/issues"><img src="/3rdparty/github/GitHub-Mark-32px.png" alt="Github Mark" width="16" height="16">&nbsp;<b>Feedback</b></a>
+            <br>
+            &copy; Copyright 2014 - 2024, <a href="https://www.sapdatasheet.org" target="_blank" title="The Best Online SAP Object Repository">www.SAPDatasheet.org</a>, The Best Online SAP Object Repository            <br>
+        </p>
+        <p><small>
+                SAP Datasheet web site and its affinity sites content is based on our knowledge of SAP system, and it is constantly reviewed to avoid errors; 
+                well we cannot warrant full correctness of all content. 
+
+                While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. 
+                Use the information and content on this web site at your own risk.
+
+                SAP and the SAP logo are registered trademarks of <a href="http://www.sap.com" target="_blank" title="SAP SE">SAP SE</a>. 
+                This web site is not sponsored by, affiliated with, or approved by <a href="http://www.sap.com" target="_blank" title="SAP SE Web Site">SAP SE</a>. 
+
+                This web site is validated by <a href="http://validator.w3.org/" target="_blank" title="W3 Validator">W3 Validator</a> 
+                as <a href="http://www.w3.org/TR/html5/" target="_blank" title="">HTML5</a>. 
+            </small></p>
+    </footer>
+</div>
+<!-- Java Script - https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="/3rdparty/bootstrap/js/bootstrap.min.js"></script>
+<!-- Google Analytics Tracking -->
+<div>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-54799157-1', 'auto');
+    ga('send', 'pageview');
+</script>
+</div>
+
+    </body>
+</html>
